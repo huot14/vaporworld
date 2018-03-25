@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: c4ff716cc16ea2b49adb35fe099bed42
+timeCreated: 1520793836
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000200000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f01000020010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 02e2ce3d41862a4eb871d37b8d330126
+  longitude: 23.726672
+  latitude: 37.971514
+  northCorrection: 1.6787482918345518
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -40.150566, y: -1.9100407, z: -55.20512}
+      lookAt: {x: 15.753423, y: 23.53158, z: 26.321957}
+      up: {x: -0.14095502, y: 0.9684403, z: -0.20556048}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Google Earth Terrain
+    100002: Group 100
+    100004: Group 102
+    100006: Group 105
+    100008: Group 107
+    100010: Group 11
+    100012: Group 110
+    100014: Group 112
+    100016: Group 115
+    100018: Group 117
+    100020: Group 120
+    100022: Group 122
+    100024: Group 125
+    100026: Group 127
+    100028: Group 13
+    100030: Group 130
+    100032: Group 132
+    100034: Group 135
+    100036: Group 137
+    100038: Group 140
+    100040: Group 142
+    100042: Group 145
+    100044: Group 147
+    100046: Group 15
+    100048: Group 150
+    100050: Group 152
+    100052: Group 155
+    100054: Group 157
+    100056: Group 160
+    100058: Group 162
+    100060: Group 165
+    100062: Group 167
+    100064: Group 17
+    100066: Group 170
+    100068: Group 172
+    100070: Group 175
+    100072: Group 177
+    100074: Group 180
+    100076: Group 182
+    100078: Group 185
+    100080: Group 187
+    100082: Group 190
+    100084: Group 192
+    100086: Group 195
+    100088: Group 197
+    100090: Group 20
+    100092: Group 200
+    100094: Group 202
+    100096: Group 205
+    100098: Group 207
+    100100: Group 210
+    100102: Group 212
+    100104: Group 215
+    100106: Group 217
+    100108: Group 22
+    100110: Group 220
+    100112: Group 222
+    100114: Group 225
+    100116: Group 227
+    100118: Group 230
+    100120: Group 232
+    100122: Group 235
+    100124: Group 237
+    100126: Group 240
+    100128: Group 242
+    100130: Group 245
+    100132: Group 247
+    100134: Group 25
+    100136: Group 250
+    100138: Group 252
+    100140: Group 255
+    100142: Group 257
+    100144: Group 260
+    100146: Group 262
+    100148: Group 265
+    100150: Group 267
+    100152: Group 27
+    100154: Group 270
+    100156: Group 272
+    100158: Group 275
+    100160: Group 277
+    100162: Group 280
+    100164: Group 282
+    100166: Group 285
+    100168: Group 287
+    100170: Group 30
+    100172: Group 32
+    100174: Group 35
+    100176: Group 37
+    100178: Group 40
+    100180: Group 42
+    100182: Group 45
+    100184: Group 47
+    100186: Group 5
+    100188: Group 50
+    100190: Group 52
+    100192: Group 55
+    100194: Group 57
+    100196: Group 6
+    100198: Group 60
+    100200: Group 62
+    100202: Group 65
+    100204: Group 67
+    100206: Group 70
+    100208: Group 72
+    100210: Group 75
+    100212: Group 77
+    100214: Group 8
+    100216: Group 80
+    100218: Group 82
+    100220: Group 85
+    100222: Group 87
+    100224: Group 9
+    100226: Group 90
+    100228: Group 92
+    100230: Group 95
+    100232: Group 97
+    100234: Parthenon
+    100236: Parthenon 1
+    100238: Parthenon 10
+    100240: Parthenon 11
+    100242: Parthenon 12
+    100244: Parthenon 13
+    100246: Parthenon 14
+    100248: Parthenon 15
+    100250: Parthenon 16
+    100252: Parthenon 17
+    100254: Parthenon 18
+    100256: Parthenon 19
+    100258: Parthenon 2
+    100260: Parthenon 20
+    100262: Parthenon 21
+    100264: Parthenon 22
+    100266: Parthenon 23
+    100268: Parthenon 24
+    100270: Parthenon 25
+    100272: Parthenon 26
+    100274: Parthenon 27
+    100276: Parthenon 28
+    100278: Parthenon 29
+    100280: Parthenon 3
+    100282: Parthenon 30
+    100284: Parthenon 31
+    100286: Parthenon 32
+    100288: Parthenon 33
+    100290: Parthenon 34
+    100292: Parthenon 35
+    100294: Parthenon 36
+    100296: Parthenon 37
+    100298: Parthenon 38
+    100300: Parthenon 39
+    100302: Parthenon 4
+    100304: Parthenon 40
+    100306: Parthenon 41
+    100308: Parthenon 42
+    100310: Parthenon 43
+    100312: Parthenon 44
+    100314: Parthenon 45
+    100316: Parthenon 46
+    100318: Parthenon 47
+    100320: Parthenon 48
+    100322: Parthenon 49
+    100324: Parthenon 5
+    100326: Parthenon 50
+    100328: Parthenon 51
+    100330: Parthenon 52
+    100332: Parthenon 53
+    100334: Parthenon 6
+    100336: Parthenon 7
+    100338: Parthenon 8
+    100340: Parthenon 9
+    100342: //RootNode
+    400000: Google Earth Terrain
+    400002: Group 100
+    400004: Group 102
+    400006: Group 105
+    400008: Group 107
+    400010: Group 11
+    400012: Group 110
+    400014: Group 112
+    400016: Group 115
+    400018: Group 117
+    400020: Group 120
+    400022: Group 122
+    400024: Group 125
+    400026: Group 127
+    400028: Group 13
+    400030: Group 130
+    400032: Group 132
+    400034: Group 135
+    400036: Group 137
+    400038: Group 140
+    400040: Group 142
+    400042: Group 145
+    400044: Group 147
+    400046: Group 15
+    400048: Group 150
+    400050: Group 152
+    400052: Group 155
+    400054: Group 157
+    400056: Group 160
+    400058: Group 162
+    400060: Group 165
+    400062: Group 167
+    400064: Group 17
+    400066: Group 170
+    400068: Group 172
+    400070: Group 175
+    400072: Group 177
+    400074: Group 180
+    400076: Group 182
+    400078: Group 185
+    400080: Group 187
+    400082: Group 190
+    400084: Group 192
+    400086: Group 195
+    400088: Group 197
+    400090: Group 20
+    400092: Group 200
+    400094: Group 202
+    400096: Group 205
+    400098: Group 207
+    400100: Group 210
+    400102: Group 212
+    400104: Group 215
+    400106: Group 217
+    400108: Group 22
+    400110: Group 220
+    400112: Group 222
+    400114: Group 225
+    400116: Group 227
+    400118: Group 230
+    400120: Group 232
+    400122: Group 235
+    400124: Group 237
+    400126: Group 240
+    400128: Group 242
+    400130: Group 245
+    400132: Group 247
+    400134: Group 25
+    400136: Group 250
+    400138: Group 252
+    400140: Group 255
+    400142: Group 257
+    400144: Group 260
+    400146: Group 262
+    400148: Group 265
+    400150: Group 267
+    400152: Group 27
+    400154: Group 270
+    400156: Group 272
+    400158: Group 275
+    400160: Group 277
+    400162: Group 280
+    400164: Group 282
+    400166: Group 285
+    400168: Group 287
+    400170: Group 30
+    400172: Group 32
+    400174: Group 35
+    400176: Group 37
+    400178: Group 40
+    400180: Group 42
+    400182: Group 45
+    400184: Group 47
+    400186: Group 5
+    400188: Group 50
+    400190: Group 52
+    400192: Group 55
+    400194: Group 57
+    400196: Group 6
+    400198: Group 60
+    400200: Group 62
+    400202: Group 65
+    400204: Group 67
+    400206: Group 70
+    400208: Group 72
+    400210: Group 75
+    400212: Group 77
+    400214: Group 8
+    400216: Group 80
+    400218: Group 82
+    400220: Group 85
+    400222: Group 87
+    400224: Group 9
+    400226: Group 90
+    400228: Group 92
+    400230: Group 95
+    400232: Group 97
+    400234: Parthenon
+    400236: Parthenon 1
+    400238: Parthenon 10
+    400240: Parthenon 11
+    400242: Parthenon 12
+    400244: Parthenon 13
+    400246: Parthenon 14
+    400248: Parthenon 15
+    400250: Parthenon 16
+    400252: Parthenon 17
+    400254: Parthenon 18
+    400256: Parthenon 19
+    400258: Parthenon 2
+    400260: Parthenon 20
+    400262: Parthenon 21
+    400264: Parthenon 22
+    400266: Parthenon 23
+    400268: Parthenon 24
+    400270: Parthenon 25
+    400272: Parthenon 26
+    400274: Parthenon 27
+    400276: Parthenon 28
+    400278: Parthenon 29
+    400280: Parthenon 3
+    400282: Parthenon 30
+    400284: Parthenon 31
+    400286: Parthenon 32
+    400288: Parthenon 33
+    400290: Parthenon 34
+    400292: Parthenon 35
+    400294: Parthenon 36
+    400296: Parthenon 37
+    400298: Parthenon 38
+    400300: Parthenon 39
+    400302: Parthenon 4
+    400304: Parthenon 40
+    400306: Parthenon 41
+    400308: Parthenon 42
+    400310: Parthenon 43
+    400312: Parthenon 44
+    400314: Parthenon 45
+    400316: Parthenon 46
+    400318: Parthenon 47
+    400320: Parthenon 48
+    400322: Parthenon 49
+    400324: Parthenon 5
+    400326: Parthenon 50
+    400328: Parthenon 51
+    400330: Parthenon 52
+    400332: Parthenon 53
+    400334: Parthenon 6
+    400336: Parthenon 7
+    400338: Parthenon 8
+    400340: Parthenon 9
+    400342: //RootNode
+    2300000: Google Earth Terrain
+    2300002: Group 100
+    2300004: Group 102
+    2300006: Group 105
+    2300008: Group 107
+    2300010: Group 11
+    2300012: Group 110
+    2300014: Group 112
+    2300016: Group 115
+    2300018: Group 117
+    2300020: Group 120
+    2300022: Group 122
+    2300024: Group 125
+    2300026: Group 127
+    2300028: Group 13
+    2300030: Group 130
+    2300032: Group 132
+    2300034: Group 135
+    2300036: Group 137
+    2300038: Group 140
+    2300040: Group 142
+    2300042: Group 145
+    2300044: Group 147
+    2300046: Group 15
+    2300048: Group 150
+    2300050: Group 152
+    2300052: Group 155
+    2300054: Group 157
+    2300056: Group 160
+    2300058: Group 162
+    2300060: Group 165
+    2300062: Group 167
+    2300064: Group 17
+    2300066: Group 170
+    2300068: Group 172
+    2300070: Group 175
+    2300072: Group 177
+    2300074: Group 180
+    2300076: Group 182
+    2300078: Group 185
+    2300080: Group 187
+    2300082: Group 190
+    2300084: Group 192
+    2300086: Group 195
+    2300088: Group 197
+    2300090: Group 20
+    2300092: Group 200
+    2300094: Group 202
+    2300096: Group 205
+    2300098: Group 207
+    2300100: Group 210
+    2300102: Group 212
+    2300104: Group 215
+    2300106: Group 217
+    2300108: Group 22
+    2300110: Group 220
+    2300112: Group 222
+    2300114: Group 225
+    2300116: Group 227
+    2300118: Group 230
+    2300120: Group 232
+    2300122: Group 235
+    2300124: Group 237
+    2300126: Group 240
+    2300128: Group 242
+    2300130: Group 245
+    2300132: Group 247
+    2300134: Group 25
+    2300136: Group 250
+    2300138: Group 252
+    2300140: Group 255
+    2300142: Group 257
+    2300144: Group 260
+    2300146: Group 262
+    2300148: Group 265
+    2300150: Group 267
+    2300152: Group 27
+    2300154: Group 270
+    2300156: Group 272
+    2300158: Group 275
+    2300160: Group 277
+    2300162: Group 280
+    2300164: Group 282
+    2300166: Group 285
+    2300168: Group 287
+    2300170: Group 30
+    2300172: Group 32
+    2300174: Group 35
+    2300176: Group 37
+    2300178: Group 40
+    2300180: Group 42
+    2300182: Group 45
+    2300184: Group 47
+    2300186: Group 50
+    2300188: Group 52
+    2300190: Group 55
+    2300192: Group 57
+    2300194: Group 6
+    2300196: Group 60
+    2300198: Group 62
+    2300200: Group 65
+    2300202: Group 67
+    2300204: Group 70
+    2300206: Group 72
+    2300208: Group 75
+    2300210: Group 77
+    2300212: Group 80
+    2300214: Group 82
+    2300216: Group 85
+    2300218: Group 87
+    2300220: Group 9
+    2300222: Group 90
+    2300224: Group 92
+    2300226: Group 95
+    2300228: Group 97
+    3300000: Google Earth Terrain
+    3300002: Group 100
+    3300004: Group 102
+    3300006: Group 105
+    3300008: Group 107
+    3300010: Group 11
+    3300012: Group 110
+    3300014: Group 112
+    3300016: Group 115
+    3300018: Group 117
+    3300020: Group 120
+    3300022: Group 122
+    3300024: Group 125
+    3300026: Group 127
+    3300028: Group 13
+    3300030: Group 130
+    3300032: Group 132
+    3300034: Group 135
+    3300036: Group 137
+    3300038: Group 140
+    3300040: Group 142
+    3300042: Group 145
+    3300044: Group 147
+    3300046: Group 15
+    3300048: Group 150
+    3300050: Group 152
+    3300052: Group 155
+    3300054: Group 157
+    3300056: Group 160
+    3300058: Group 162
+    3300060: Group 165
+    3300062: Group 167
+    3300064: Group 17
+    3300066: Group 170
+    3300068: Group 172
+    3300070: Group 175
+    3300072: Group 177
+    3300074: Group 180
+    3300076: Group 182
+    3300078: Group 185
+    3300080: Group 187
+    3300082: Group 190
+    3300084: Group 192
+    3300086: Group 195
+    3300088: Group 197
+    3300090: Group 20
+    3300092: Group 200
+    3300094: Group 202
+    3300096: Group 205
+    3300098: Group 207
+    3300100: Group 210
+    3300102: Group 212
+    3300104: Group 215
+    3300106: Group 217
+    3300108: Group 22
+    3300110: Group 220
+    3300112: Group 222
+    3300114: Group 225
+    3300116: Group 227
+    3300118: Group 230
+    3300120: Group 232
+    3300122: Group 235
+    3300124: Group 237
+    3300126: Group 240
+    3300128: Group 242
+    3300130: Group 245
+    3300132: Group 247
+    3300134: Group 25
+    3300136: Group 250
+    3300138: Group 252
+    3300140: Group 255
+    3300142: Group 257
+    3300144: Group 260
+    3300146: Group 262
+    3300148: Group 265
+    3300150: Group 267
+    3300152: Group 27
+    3300154: Group 270
+    3300156: Group 272
+    3300158: Group 275
+    3300160: Group 277
+    3300162: Group 280
+    3300164: Group 282
+    3300166: Group 285
+    3300168: Group 287
+    3300170: Group 30
+    3300172: Group 32
+    3300174: Group 35
+    3300176: Group 37
+    3300178: Group 40
+    3300180: Group 42
+    3300182: Group 45
+    3300184: Group 47
+    3300186: Group 50
+    3300188: Group 52
+    3300190: Group 55
+    3300192: Group 57
+    3300194: Group 6
+    3300196: Group 60
+    3300198: Group 62
+    3300200: Group 65
+    3300202: Group 67
+    3300204: Group 70
+    3300206: Group 72
+    3300208: Group 75
+    3300210: Group 77
+    3300212: Group 80
+    3300214: Group 82
+    3300216: Group 85
+    3300218: Group 87
+    3300220: Group 9
+    3300222: Group 90
+    3300224: Group 92
+    3300226: Group 95
+    3300228: Group 97
+    4300000: Mesh Google Earth Terrain
+    4300002: Mesh Group 6
+    4300004: Mesh Group 9
+    4300006: Mesh Group 11
+    4300008: Mesh Group 13
+    4300010: Mesh Group 15
+    4300012: Mesh Group 17
+    4300014: Mesh Group 20
+    4300016: Mesh Group 22
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
