@@ -196,6 +196,7 @@
      <Compile Include="Assets\Scripts\Cat.cs" />
      <Compile Include="Assets\Scripts\CinematicCamera.cs" />
      <Compile Include="Assets\Scripts\positionAudioReact.cs" />
+     <Compile Include="Assets\Scripts\SpinningCamera.cs" />
      <None Include="Assets\Imports\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\Imports\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Imports\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />

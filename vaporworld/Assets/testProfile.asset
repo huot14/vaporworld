@@ -42,7 +42,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 0
     m_Settings:
-      intensity: 4
+      intensity: 0
       radius: 20
       sampleCount: 10
       downsampling: 1
@@ -72,12 +72,12 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       focusDistance: 10
-      aperture: 0.9
-      focalLength: 44
+      aperture: 0.1
+      focalLength: 61
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       shutterAngle: 270
       sampleCount: 12
