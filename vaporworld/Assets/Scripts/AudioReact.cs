@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class positionAudioReact : MonoBehaviour {
+public class AudioReact : MonoBehaviour {
+
     public AudioAnalyzer analyzer; // Link analyzer script from parent object
-    public float minHeight;
-    public float maxHeight;
     public float maxLevel; // Max total sum of the spectrum range
 
     public int rangeStart;
@@ -14,19 +13,19 @@ public class positionAudioReact : MonoBehaviour {
     public Queue<float> movingAverage; // Each index corresponds to the rangeTotal at a period of time
     public int movingAverageWidth;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         movingAverage = new Queue<float>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update() {
         float[] currSpectrum = analyzer.getSpectrum();
 
         float rangeTotal = 0;
 
         // Sum total of values in desired range
-        for (int i  = rangeStart; i < rangeEnd; i++) {
+        for (int i = rangeStart; i < rangeEnd; i++) {
             rangeTotal += currSpectrum[i];
         }
 
@@ -38,18 +37,18 @@ public class positionAudioReact : MonoBehaviour {
 
         if (sumOfTotals > maxLevel) { sumOfTotals = maxLevel; }
 
-        reactPosition(sumOfTotals, maxLevel);
+        react(sumOfTotals, maxLevel);
     }
 
     // Adjust position based on given value
-    void reactPosition(float sumOfTotals, float maxLevel) {
-        this.transform.position = new Vector3(this.transform.position.x, maxHeight * (sumOfTotals / maxLevel), this.transform.position.z);
+    public virtual void react(float sumOfTotals, float maxLevel) {
+
     }
 
     void updateMovingAverage(float newValue) {
         movingAverage.Enqueue(newValue);
-        
-        if (movingAverage.Count > movingAverageWidth){
+
+        if (movingAverage.Count > movingAverageWidth) {
             movingAverage.Dequeue();
         }
     }

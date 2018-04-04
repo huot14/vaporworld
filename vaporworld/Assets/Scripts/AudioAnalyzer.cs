@@ -40,8 +40,6 @@ public class AudioAnalyzer : MonoBehaviour {
 
         source.GetSpectrumData(spectrum, 0, FFTWindow.Rectangular);
 
-        Debug.Log(spectrum[0]);
-
         return spectrum;
     }
 

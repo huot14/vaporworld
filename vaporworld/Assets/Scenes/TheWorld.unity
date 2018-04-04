@@ -10094,6 +10094,7 @@ GameObject:
   - component: {fileID: 306103792}
   - component: {fileID: 306103791}
   - component: {fileID: 306103790}
+  - component: {fileID: 306103793}
   m_Layer: 0
   m_Name: Sphere (7)
   m_TagString: Untagged
@@ -10165,6 +10166,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 306103788}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &306103793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306103788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f183d44fe19beaa4f8357bc5853991e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analyzer: {fileID: 1268440426}
+  maxLevel: 5
+  rangeStart: 10
+  rangeEnd: 30
+  movingAverageWidth: 30
 --- !u!1 &310226371
 GameObject:
   m_ObjectHideFlags: 0
@@ -17632,6 +17649,7 @@ GameObject:
   - component: {fileID: 590227642}
   - component: {fileID: 590227641}
   - component: {fileID: 590227640}
+  - component: {fileID: 590227643}
   m_Layer: 0
   m_Name: Plane (2)
   m_TagString: Untagged
@@ -17646,7 +17664,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590227638}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 400, y: 400, z: 0}
+  m_LocalPosition: {x: 400, y: 400, z: -3}
   m_LocalScale: {x: 80, y: 1, z: 80}
   m_Children: []
   m_Father: {fileID: 1050595448}
@@ -17705,6 +17723,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590227638}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &590227643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 590227638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d8556115926f84fa6fb3abf3ec8730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analyzer: {fileID: 1268440426}
+  maxLevel: 5
+  rangeStart: 14
+  rangeEnd: 64
+  movingAverageWidth: 10
 --- !u!1 &594550424
 GameObject:
   m_ObjectHideFlags: 0
@@ -17942,7 +17976,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 597903455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.26, z: -24.15}
+  m_LocalPosition: {x: 0, y: 3.26, z: 497.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1721781805}
@@ -38050,6 +38084,7 @@ GameObject:
   - component: {fileID: 1221607840}
   - component: {fileID: 1221607839}
   - component: {fileID: 1221607838}
+  - component: {fileID: 1221607841}
   m_Layer: 0
   m_Name: Plane (3)
   m_TagString: Untagged
@@ -38123,6 +38158,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1221607836}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1221607841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1221607836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d8556115926f84fa6fb3abf3ec8730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analyzer: {fileID: 1268440426}
+  maxLevel: 5
+  rangeStart: 14
+  rangeEnd: 64
+  movingAverageWidth: 10
 --- !u!1 &1221721182
 GameObject:
   m_ObjectHideFlags: 0
@@ -39427,6 +39478,8 @@ GameObject:
   - component: {fileID: 1268440424}
   - component: {fileID: 1268440423}
   - component: {fileID: 1268440422}
+  - component: {fileID: 1268440427}
+  - component: {fileID: 1268440426}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -39500,6 +39553,34 @@ Transform:
   m_Father: {fileID: 1050595448}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+--- !u!114 &1268440426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1268440421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696f3a7533a642742b729851dc1decdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1347130211}
+--- !u!114 &1268440427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1268440421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d8556115926f84fa6fb3abf3ec8730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analyzer: {fileID: 1268440426}
+  maxLevel: 5
+  rangeStart: 14
+  rangeEnd: 64
+  movingAverageWidth: 10
 --- !u!1 &1269938871
 GameObject:
   m_ObjectHideFlags: 0
@@ -42962,6 +43043,7 @@ GameObject:
   - component: {fileID: 1374400101}
   - component: {fileID: 1374400100}
   - component: {fileID: 1374400099}
+  - component: {fileID: 1374400102}
   m_Layer: 0
   m_Name: Plane (4)
   m_TagString: Untagged
@@ -43035,6 +43117,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1374400097}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1374400102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1374400097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d8556115926f84fa6fb3abf3ec8730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  analyzer: {fileID: 1268440426}
+  maxLevel: 5
+  rangeStart: 14
+  rangeEnd: 64
+  movingAverageWidth: 10
 --- !u!1 &1386713081
 GameObject:
   m_ObjectHideFlags: 0
@@ -53842,7 +53940,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f7943583942e4844290a21f34e9111b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53894,10 +53992,10 @@ MonoBehaviour:
   analyzer: {fileID: 1721781806}
   minHeight: 3
   maxHeight: 10
-  maxLevel: 10
-  rangeStart: 0
-  rangeEnd: 4
-  movingAverageWidth: 20
+  maxLevel: 3
+  rangeStart: 15
+  rangeEnd: 30
+  movingAverageWidth: 10
 --- !u!1 &1723122408
 GameObject:
   m_ObjectHideFlags: 0
