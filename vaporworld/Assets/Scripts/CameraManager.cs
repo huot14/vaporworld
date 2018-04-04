@@ -53,6 +53,19 @@ public class CameraManager : MonoBehaviour {
                 timePassed = 0f;
                 waitTime = Random.Range(minWait, maxWait);
             }
+
+			if (Input.GetKeyDown (KeyCode.RightArrow)) 
+			{
+				cameraSwitch();
+				timePassed = 0f;
+				waitTime = Random.Range(minWait, maxWait);
+			}
+			if (Input.GetKeyDown (KeyCode.LeftArrow)) 
+			{
+				cameraSwitchBack();
+				timePassed = 0f;
+				waitTime = Random.Range(minWait, maxWait);
+			}
         }
         
         if(Input.GetKeyDown(KeyCode.C))
@@ -87,4 +100,22 @@ public class CameraManager : MonoBehaviour {
             cameras[current].SetActive(true);
         }
     }
+
+	void cameraSwitchBack()
+	{
+		if(current < cameras.Length)
+		{
+			cameras[current].SetActive(false);
+			current--;
+		}
+		if(current <= 0)
+		{
+			current = cameras.Length - 1;
+		}
+
+		if (cinematicMode)
+		{
+			cameras[current].SetActive(true);
+		}
+	}
 }
