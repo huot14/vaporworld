@@ -26,7 +26,7 @@ public class AudioReact : MonoBehaviour {
 
         // Sum total of values in desired range
         for (int i = rangeStart; i < rangeEnd; i++) {
-            rangeTotal += currSpectrum[i];
+            rangeTotal += Mathf.Clamp((50+i*i) * currSpectrum[i],0,50);
         }
 
         // Update moving average with current value
